@@ -1,0 +1,138 @@
+-----------------------Question-------------------------
+Write a method that will take one string as an
+argument and return the reverse version of this string.
+
+//solution 1
+public static String revString( String str) {
+
+StringBuilder rev = new StringBuilder(str)
+
+for( int i = str.lenth() -1; i >= 0; i--){
+rev.append(str.charAt(i));
+}
+return rev.toString();
+}
+
+//solution 2
+ public static String revString(String str) {
+ 
+        StringBuilder reversed = new StringBuilder(str);
+        return reversed.reverse().toString();
+    }
+-----------------------Question-------------------------
+Write a method that will take one arr[] as an
+argument and return the higest value. 
+
+public static int highValue(arr[] int){
+
+int max = arr[0];
+for( int i = 0; i <arr.lengh; i++) {
+if(arr[i] > max){
+max = arr[i]
+}
+return max;
+} 
+
+
+-----------------------Question-------------------------
+//prime number
+
+int number = 5;
+
+if(is Prime(number)){
+System.out.println("it is prime number: "+number)
+}
+
+
+public static boolean isPrime(int number){
+for( int i  = 2;  i <= number / 2; i++ ){
+ if( num % i  == 0 )
+     return false;
+ else
+      return true;
+}
+}
+
+-----------------------Question-------------------------
+//Fibonacci series
+
+int number = 6;
+
+int first = 0, second = 1, next;
+
+for(int i = first, i <=number; i++) {
+
+System.out.print(first+ " ");
+next = second + fiest;
+first = second;
+second = next;
+}
+-----------------------Question-------------------------
+// swap two number with out using third variable
+
+int num1 = 5, num2 =10;
+
+System.out.println(num1+ " "+ num2);
+num1 = num1 + num2;
+num2 = num1 - num2;
+num1 = num1 - num2;
+
+
+
+
+-----------------------Question-------------------------
+
+//factorial number 
+
+int number = 7, fac = 1;
+for( int i = 1; i <=number; i++){
+  fac = fac * i;
+}
+System.out.println(fac);
+-----------------------Question-------------------------
+int arr[] = {6,65,3,6,2};
+int arr2[] = {8,5,4};
+write a program to merge two unsorted array and then sort it.
+
+int arr1[] = [1,2,3];
+int arr2[] = [4,5,6];
+
+int arr3[] = int new[arr1.length + arr2.length]; [3+3]
+
+for(int i = 0; i < arr1.length; i++{
+arr3[i] = arr1[i];  // [1,2,3,0,0,0]
+}
+for ( int i = 0; i < arr2.length; i++) {
+arr3[i + arr1.length] = arr2[i];
+}
+System.out.print(Array.toString(arr3));
+
+
+
+
+-----------------------Question-------------------------
+bubble sort
+int arr[] = {6,5,3,7,2};
+for(int i = 0; i < arr.length; i++){
+for (int j = i + 1; arr.lenght; j++){
+if(arr[i] > arr[j]{
+int temp = arr[i];
+arr[i] = arr[j];
+arr[j] = temp;
+}
+}
+
+
+select department, AVG(salary) as salary
+from employy
+group by department
+having salary > 50000;
+-----------------------Question-------------------------
+
+-----------------------Question-------------------------
+
+-----------------------Question-------------------------
+
+-----------------------Question-------------------------
+-----------------------Question-------------------------
+-----------------------Question-------------------------
